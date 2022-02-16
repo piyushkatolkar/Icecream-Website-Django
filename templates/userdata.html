@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1 >Piyush Ice-Cream Members Database</h1>
+        {% for item in all %}
+
+            <!--all items in Database-->
+            <!--     <P>{{all}}</p>     -->
+
+            <!--all items database in step by step-->
+            {{ item.date }}</br>
+            {{ item.name }}</br>
+            {{ item.email }}</br>
+            {{ item.phone }}</br>
+            {{ item.desc }}</br></br>
+            <hr>
+        {% endfor %}
+    </body>
+</html>
